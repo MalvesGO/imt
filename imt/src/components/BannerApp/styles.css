@@ -99,6 +99,7 @@
 
     .stores img {
         width: 50%;
+        cursor: pointer;
     }
 
     .bannerapp .info {
