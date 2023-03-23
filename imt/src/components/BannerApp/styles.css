@@ -76,3 +76,36 @@
         align-items: center;
     }
 }
+
+/* mobile */
+
+@media (max-width: 480px) {
+    .bannerapp {
+        padding: 1rem;
+    }
+
+    .bannerapp h1 {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .bannerapp p {
+        font-size: 1rem;
+    }
+
+    .stores {
+        flex-direction: column;
+    }
+
+    .stores img {
+        width: 50%;
+    }
+
+    .bannerapp .info {
+        align-items: center;
+    }
+
+    .bannerapp button {
+        max-width: 100%;
+    }
+}
