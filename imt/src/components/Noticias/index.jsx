@@ -18,7 +18,7 @@ const noticias = [
 const Noticias = () => {
   return (
     <div className='sectionNoticias'>
-      <h1>Noticias</h1>
+      <h1>Notícias</h1>
       <div className='noticias'>
         {
           noticias.map((noticia) => {
@@ -36,7 +36,7 @@ const Noticias = () => {
       </div>
       <div className='more'>
         <button>
-          Mais Noticias
+          Mais Notícias
           <FaArrowRight
             size={20}
             color='#fff'

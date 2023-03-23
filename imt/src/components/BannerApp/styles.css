@@ -1,0 +1,78 @@
+.bannerapp {
+    background-color: #AFCA2F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    border-radius: 8px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.stores {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bannerapp img {
+    width: 30%;
+}
+
+.bannerapp .info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.bannerapp h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.bannerapp p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.bannerapp button {
+    max-width: 50%;
+    background-color: #004470;
+    color: #fff;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ipad view */
+
+@media (max-width: 768px) {
+    .bannerapp {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .bannerapp img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .bannerapp .info {
+        width: 100%;
+        align-items: center;
+    }
+}
