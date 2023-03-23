@@ -2,10 +2,12 @@ import React from 'react'
 import './App.css'
 
 import Header from './components/Header'
+import Menu from './components/Menu'
 import Banner from './components/Banner'
 import BannerApp from './components/BannerApp'
 import Noticias from './components/Noticias'
-import Menu from './components/Menu'
+import Footer from './components/Footer'
+
 
 function App() {
 
@@ -16,9 +18,7 @@ function App() {
       <Banner />
       <Noticias />
       <BannerApp />
-      <footer>
-        <p>Footer</p>
-      </footer>
+      <Footer />      
     </div>
   )
 }

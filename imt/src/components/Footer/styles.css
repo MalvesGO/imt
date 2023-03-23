@@ -1,0 +1,18 @@
+footer {
+    margin-top: 1rem;
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
