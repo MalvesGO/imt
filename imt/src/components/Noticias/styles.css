@@ -1,8 +1,8 @@
 .noticias {
+    padding: 1rem 0;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    background: #bbb;
     gap: 1rem;
 }
 
@@ -12,7 +12,10 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    flex: 0 1 32%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    width: 32%;
+
 }
 
 .noticia img {

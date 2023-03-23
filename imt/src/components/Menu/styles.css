@@ -1,0 +1,18 @@
+.menu {
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu .item {
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    list-style: none;
+    cursor: pointer;
+}

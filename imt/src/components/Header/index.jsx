@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-
+import { BiLockAlt } from 'react-icons/bi'
 import Logo from '../../assets/logo.png'
 
 const Header = () => {
@@ -8,8 +8,21 @@ const Header = () => {
     <div className='header'>
       <header>
         <img src={Logo} alt="Logo" />
-        <input type="text" />
-        <button>Aceder</button>
+        <input 
+        type="text" 
+        placeholder="Pesquisar"
+        />
+        <button>
+          <BiLockAlt
+            fontSize={22}
+            style={
+              {
+                marginRight: 10,
+                color: '#fff'
+              }}
+          />
+          Aceder
+        </button>
       </header>
     </div>
   )
