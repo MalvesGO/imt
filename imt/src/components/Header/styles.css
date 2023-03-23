@@ -27,7 +27,7 @@ header input {
 }
 
 header button {
-    background: #D53243;
+    background: #AFCA2F;
     color: #fff;
     padding: 1rem 2rem;
     border: none;
@@ -39,6 +39,11 @@ header button {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: linear ease-in-out 0.2s;
+}
+
+header button:hover {
+    background: #b2cf3e;
 }
 
 /* ipad view */

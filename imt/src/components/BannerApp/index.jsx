@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 
-import takephone from '../../assets/takephone.png'
+import takephone from '../../assets/phone.png'
 import applestore from '../../assets/applestore.svg'
 import playstore from '../../assets/playstore.svg'
 

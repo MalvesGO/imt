@@ -21,7 +21,7 @@ const Header = () => {
                 color: '#fff'
               }}
           />
-          Aceder
+          Area Reservada
         </button>
       </header>
     </div>
