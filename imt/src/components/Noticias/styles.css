@@ -1,0 +1,21 @@
+.noticias {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background: #bbb;
+    gap: 1rem;
+}
+
+.noticia {
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 0 1 32%;
+}
+
+.noticia img {
+    width: 100px;
+    object-fit: cover;
+}

@@ -1,0 +1,13 @@
+
+header {
+    padding: 2rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    border-top: 5px solid #D53243;;
+    border-bottom: 5px solid #ABC640;
+}
