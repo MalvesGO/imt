@@ -16,3 +16,11 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
+
+/* mobile view */
+
+@media (max-width: 480px) {
+    footer {
+        flex-direction: column;
+    }
+}
