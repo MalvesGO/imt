@@ -16,3 +16,21 @@
     list-style: none;
     cursor: pointer;
 }
+
+/* ipad view */
+
+@media (max-width: 768px) {
+    .menu {
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 480px) {
+    .menu {
+        padding: 1rem;
+        flex-direction: column;
+    }
+}

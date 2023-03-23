@@ -1,37 +1,48 @@
 import React from 'react'
 import './styles.css'
 
+import { FaArrowRight } from 'react-icons/fa'
+
 const noticias = [
-  {id: 1, title: 'Noticia 1', description: 'Descrição da noticia 1'},
-  {id: 2, title: 'Noticia 2', description: 'Descrição da noticia 2'},
-  {id: 3, title: 'Noticia 3', description: 'Descrição da noticia 3'},
-  {id: 4, title: 'Noticia 4', description: 'Descrição da noticia 4'},
-  {id: 5, title: 'Noticia 5', description: 'Descrição da noticia 5'},
-  {id: 6, title: 'Noticia 6', description: 'Descrição da noticia 6'},
-  {id: 7, title: 'Noticia 7', description: 'Descrição da noticia 7'},
-  {id: 8, title: 'Noticia 8', description: 'Descrição da noticia 8'},
-  {id: 9, title: 'Noticia 9', description: 'Descrição da noticia 9'},
-  {id: 10, title: 'Noticia 10', description: 'Descrição da noticia 10'},
-  {id: 11, title: 'Noticia 11', description: 'Descrição da noticia 11'},
-  {id: 12, title: 'Noticia 12', description: 'Descrição da noticia 12'},
+  { id: 1, title: 'Noticia 1', description: 'FCT - Concurso para Atribuição de Bolsas de Investigação para Doutoramento 2023 - IMT manifesta interesse para acolhimento de doutorandos através de Bolsa de Investigação da FCT' },
+  { id: 2, title: 'Noticia 2', description: 'Avaliação de Desempenho Ambiental da OCDE a Portugal' },
+  { id: 3, title: 'Noticia 3', description: 'Declaração de Autenticidade do Cartão Tacográfico' },
+  { id: 4, title: 'Noticia 4', description: 'Estratégia Nacional para a Mobilidade Ativa Ciclável - 1ª Ação de Formação “Desporto Escolar Sobre Rodas”' },
+  { id: 5, title: 'Noticia 5', description: 'Transportes de mercadorias e passageiros - Publicidade de horários de trabalho e forma de registo dos respetivos tempos de trabalho' },
+  { id: 6, title: 'Noticia 6', description: 'Anuário Estatístico da Mobilidade e dos Transportes de 2021' },
+  { id: 7, title: 'Noticia 7', description: 'Comunicado IMT - Anomalias Técnicas em Cartões Tacográficos' },
+  { id: 8, title: 'Noticia 8', description: 'Alerta Fraude | Carta de Condução' },
+  { id: 9, title: 'Noticia 9', description: 'Prémios European Green Capital & European Green Leaf 2025' },
 ]
 
 const Noticias = () => {
   return (
-    <div className='noticias'>
-      {
-        noticias.map((noticia) => {
-          return (
-            <div className='noticia' key={noticia.id}>
-              <img src="https://www.imt-ip.pt/sites/IMTT/Portugues/Noticias/PublishingImages/2019/SimboloIMT.png" alt="" />
-              <div>
-              <h2>{noticia.title}</h2>
-              <p>{noticia.description}</p>
+    <div className='sectionNoticias'>
+      <h1>Noticias</h1>
+      <div className='noticias'>
+        {
+          noticias.map((noticia) => {
+            return (
+              <div className='noticia' key={noticia.id}>
+                <img src="https://www.imt-ip.pt/sites/IMTT/Portugues/Noticias/PublishingImages/2019/SimboloIMT.png" alt="" />
+                <div>
+                  {/* <h2>{noticia.title}</h2> */}
+                  <p className='description'>{noticia.description}</p>
+                </div>
               </div>
-            </div>
-          )
-        })
-      }
+            )
+          })
+        }
+      </div>
+      <div className='more'>
+        <button>
+          Mais Noticias
+          <FaArrowRight
+            size={20}
+            color='#fff'
+          />
+        </button>
+      </div>
     </div>
   )
 }

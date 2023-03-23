@@ -40,3 +40,35 @@ header button {
     align-items: center;
     justify-content: center;
 }
+
+/* ipad view */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        margin-bottom: 1rem;
+    }
+
+    header input {
+        margin-bottom: 1rem;
+    }
+}
+
+/* mobile view */
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+
+    header input {
+        padding: 0.5rem;
+    }
+
+    header button {
+        padding: 0.5rem 1rem;
+    }
+}
